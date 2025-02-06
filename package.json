@@ -21,7 +21,8 @@
     "rescript.json",
     "src/**/*.res",
     "src/**/*.resi",
-    "src/**/*.mjs"
+    "src/**/*.mjs",
+    "src/**/*.bs.js"
   ],
   "peerDependencies": {
     "rescript": ">=11.1.0"
