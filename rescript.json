@@ -4,11 +4,16 @@
   "sources": [
     {
       "dir": "src",
-      "subdirs": ["intl", "typed-arrays"]
+      "subdirs": [
+        "intl",
+        "typed-arrays"
+      ]
     },
     {
       "dir": "test",
-      "subdirs": ["intl"],
+      "subdirs": [
+        "intl"
+      ],
       "type": "dev"
     },
     {
@@ -16,12 +21,14 @@
       "type": "dev"
     }
   ],
-  "suffix": ".mjs",
+  "suffix": ".js",
   "package-specs": {
-    "module": "esmodule",
+    "module": "commonjs",
     "in-source": true
   },
-  "bs-dev-dependencies": ["@rescript/tools"],
+  "bs-dev-dependencies": [
+    "@rescript/tools"
+  ],
   "warnings": {
     "error": "+101"
   }
